@@ -1,0 +1,17 @@
+# Python genel gereksiz dosyalar
+venv/
+.idea/
+__pycache__/
+*.pyc
+
+# YOLO ve Dataset ile ilgili dosyalar
+runs/
+datasets/
+data/images/
+data/labels/
+
+# Ağırlık dosyaları (Bunlar 100MB'ı geçerse hata alırsınız)
+*.pt
+*.onnx
+best.pt
+last.pt
